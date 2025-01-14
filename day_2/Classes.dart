@@ -4,10 +4,6 @@ A class is a blueprint for creating objects.
 It defines properties (variables) and methods (functions) that an object of the class will have.
 */
 
-
-
-
-
 //************************************************************************* */
 //Defining a Class
 class Person{
@@ -83,7 +79,6 @@ person3.fullName(String name, String lastName , {int? age});
     p2.introduction();
 
     // Named Constructors
-    var p3 = person3('sajad', 'Nowroozi', 21);
     person3.justName('Sajad');
     person3.fullName('Sajad', 'Nowrzooi');
   }
