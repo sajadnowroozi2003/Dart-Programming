@@ -5,6 +5,10 @@ It defines properties (variables) and methods (functions) that an object of the 
 */
 
 
+
+
+
+//************************************************************************* */
 //Defining a Class
 class Person{
   String? name;
@@ -15,8 +19,10 @@ class Person{
   }
 }
 
-// Constructors
 
+
+//************************************************************************* */
+// Constructors
 class Person2{
   String? name;
   int? age;
@@ -29,6 +35,9 @@ class Person2{
   }
 }
 
+
+
+//************************************************************************* */
 // Named Constructors
 class person3{
 String? name;
@@ -38,18 +47,26 @@ int? age;
   print("Hello its from Named Constructor classes I'm $name , My full name is $name $lastName I'm $age years old.");
  }
 
+
+//************************************************************************* */
 //  Deflate Constructors
 person3(String name , String lastName , int age);
 
+
+
+
+//************************************************************************* */
 //  required just Name
 person3.justName(String name ,{String? lastName , int? age});
 
+
+
+//************************************************************************* */
 // required Full Name
 person3.fullName(String name, String lastName , {int? age});
 
-
 }
-
+//************************************************************************* */
 
 // Main method
  void main(){
